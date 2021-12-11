@@ -29,7 +29,7 @@ namespace AdventOfCode11 {
       reader.Close();
 
       // Calculate the steps for the tako-energy-grid
-      const int steps = 502;
+      const int steps = 100;
       for (int i = 1; i <= steps; i++) {
         energyArray = CalculateStep(energyArray, out int newFlashes);
         flashes += newFlashes;
